@@ -41,5 +41,6 @@ http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/jso
 			connector-ref="Active_MQ" doc:name="JMS" />
 		<logger message="#[payload]" level="INFO" doc:name="Logger" />
 		
+		
 	</flow>
 </mule>
